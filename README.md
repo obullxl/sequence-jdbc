@@ -35,10 +35,9 @@ public NTSequence ntSequence(DataSource dataSource) {
     
     // 以下参数为默认值，可无需设置
     impl.setRetryTimes(10);
-    impl.setRetryTimes(10);
-    impl.setStep(1000L);
+    impl.setStep(1000L); // 值越大，访问DB次数越少，性能越好
     impl.setMinValue(1L);
-    impl.setMaxValue(99999999L);
+    impl.setMaxValue(99999999L); // 序列值最大值，当超过该值，则循环从`minValue`开始
     
     // 序列初始化
     impl.init();
