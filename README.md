@@ -4,6 +4,17 @@
 + `分布式：`收益于集中式的序列数据表，保证了序列全局唯一。
 
 # 使用步骤
+## 设置仓库
+本JAR使用了Gitee仓库托管，因此需要设置仓库地址：
+```xml
+<repositories>
+   <repository>
+      <id>Gitee-obullxl</id>
+      <url>https://gitee.com/obullxl/maven-repository/raw/sequence-jdbc</url>
+   </repository>
+</repositories>
+```
+
 ## JAR包依赖
 仅需要依赖本JAR包，无其他JAR包依赖：
 ```xml
