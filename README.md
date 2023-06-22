@@ -1,14 +1,14 @@
-# 通用的高性能的分布式序列服务
-+ `通用性：`仅依赖一张序列数据表，JDBC支持的数据库均可使用，包括SQLite、MySQL、OceanBase等。
+# 通用高性能的分布式id序列服务
++ `通用性：`仅依赖一张序列数据表，JDBC支持的数据库均可使用，包括SQLite、MySQL、Oracle、OceanBase等。
 + `高性能：`本地缓存一个序列区间，缓存使用完之前无DB交互；缓存的区间可设置，区间越大，DB访问越少，性能越高。
-+ `分布式：`收益于集中式的序列数据表，保证了序列全局唯一。
++ `分布式：`受益于集中式的序列数据表，保证了序列全局唯一。
 
 # 使用步骤
 
-+ 个人博客：[https://ntopic.cn](https://ntopic.cn)
++ 个人博客-详细介绍了组件的设计思路：[https://ntopic.cn/p/2023062101/](https://ntopic.cn/p/2023062101/)
 
 ## 设置仓库
-本JAR使用了Gitee仓库托管，因此需要设置仓库地址：
+本JAR使用了Gitee仓库托管，在项目的根`pom.xml`中，设置仓库地址：
 ```xml
 <repositories>
    <repository>
@@ -18,7 +18,7 @@
 </repositories>
 ```
 
-## JAR包依赖
+## JAR包引用
 仅需要依赖本JAR包，无其他JAR包依赖：
 ```xml
 <dependency>

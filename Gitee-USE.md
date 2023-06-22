@@ -1,5 +1,5 @@
 # JAR包使用
-+ 个人博客：[https://ntopic.cn](https://ntopic.cn)
++ 个人博客：[https://ntopic.cn/p/2023062101/](https://ntopic.cn/p/2023062101/)
 + 源代码仓库：[https://gitee.com/obullxl/sequence-jdbc](https://gitee.com/obullxl/sequence-jdbc)
 
 ## 配置仓库
@@ -8,7 +8,7 @@
 <repositories>
    <repository>
       <id>Gitee-obullxl</id>
-      <url>https://gitee.com/obullxl/maven-repository/raw/sequence-jdbc</url>
+      <url>https://gitee.com/obullxl/maven-repository/raw/master/repository</url>
    </repository>
 </repositories>
 ```

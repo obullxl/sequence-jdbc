@@ -42,7 +42,7 @@ public class NTSequenceImpl implements NTSequence {
     private String tableName = "nt_sequence";
 
     /**
-     * 属性-序列获取步长
+     * 属性-序列获取步长（即序列缓存大小）
      */
     private long step = 1000L;
 

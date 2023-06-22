@@ -1,3 +1,6 @@
+# JAR包
+/repository
+
 # Compiled class file
 *.class
 .mvn
