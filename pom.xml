@@ -95,7 +95,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
                 <configuration>
-                    <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/../repository/sequence-jdbc/repository</altDeploymentRepository>
+                    <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/../../repository/sequence-jdbc/repository</altDeploymentRepository>
                 </configuration>
             </plugin>
         </plugins>

@@ -8,12 +8,22 @@
 + 个人博客-详细介绍了组件的设计思路：[https://ntopic.cn/p/2023062101/](https://ntopic.cn/p/2023062101/)
 
 ## 设置仓库
-本JAR使用了Gitee仓库托管，在项目的根`pom.xml`中，设置仓库地址：
+本JAR使用了Gitee和GitHub仓库托管，在项目的根`pom.xml`中，设置仓库地址：
 ```xml
 <repositories>
    <repository>
       <id>Gitee-obullxl</id>
-      <url>https://gitee.com/obullxl/maven-repository/raw/sequence-jdbc</url>
+      <url>https://gitee.com/obullxl/maven-repository/raw/master/repository</url>
+   </repository>
+</repositories>
+```
+或者：
+
+```xml
+<repositories>
+   <repository>
+      <id>GitHub-obullxl</id>
+      <url>https://raw.githubusercontent.com/obullxl/maven-repository/master/repository</url>
    </repository>
 </repositories>
 ```
