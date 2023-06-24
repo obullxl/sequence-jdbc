@@ -125,7 +125,7 @@ public class NTSequenceImpl implements NTSequence {
             LOGGER.error("检测序列数据表是否存在异常，请求人工创建序列数据表[{}].", this.tableName, e);
             throw new RuntimeException("检测序列数据表是否存在异常，请求人工创建序列数据表(" + this.tableName + ")", e);
         } finally {
-            this.closeAutoCommit(conn);
+            this.closeQuietly(conn);
         }
     }
 
