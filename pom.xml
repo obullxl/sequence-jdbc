@@ -141,6 +141,7 @@
                         </goals>
                         <configuration>
                             <tasks>
+                                <!--suppress UnresolvedMavenProperty -->
                                 <echo file="${project.basedir}/target/classes/NTopic.Release" message="Version=${project.version}${line.separator}BuildTime=${BuildTime}" />
                             </tasks>
                         </configuration>
