@@ -7,6 +7,8 @@
 
 + 个人博客-详细介绍了组件的设计思路：[https://ntopic.cn/p/2023062101/](https://ntopic.cn/p/2023062101/)
 
++ 个人博客-详细介绍了Maven托管仓库配置方法：[https://ntopic.cn/p/2023062201/](https://ntopic.cn/p/2023062201/)
+
 ## 设置仓库
 本JAR使用了Gitee和GitHub仓库托管，在项目的根`pom.xml`中，设置仓库地址：
 ```xml

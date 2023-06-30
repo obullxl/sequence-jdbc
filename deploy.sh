@@ -1,12 +1,6 @@
 #!/bin/bash
 
-# 仓库准备：提前准备好
-#cd ../
-#rm -rf maven-repository
-#git clone -b master https://github.com/obullxl/maven-repository.git maven-repository
-
 # 本地打包
-#cd ./sequence-jdbc
 mvn clean && mvn deploy -Dmaven.test.skip=true
 
 # 上传仓库
